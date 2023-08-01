@@ -26,7 +26,7 @@ public class MathOperationsImpl implements MathOperations {
 		if (b != 0)
 			return a / b;
 		else
-			throw new RuntimeException("divisor should be a non-zero numbers");
+			throw new RuntimeException("divisor should be a non-zero number");
 	}
 
 	@Override
@@ -34,6 +34,6 @@ public class MathOperationsImpl implements MathOperations {
 		if (b != 0)
 			return a % b;
 		else
-			throw new RuntimeException("divisor should be a non-zero numbers");
+			throw new RuntimeException("divisor should be a non-zero number");
 	}
 }
