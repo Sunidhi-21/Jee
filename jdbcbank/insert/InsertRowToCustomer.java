@@ -40,7 +40,7 @@ public class InsertRowToCustomer {
 		{
 			
 			int result = stmt.executeUpdate(sqlQuery);
-			System.out.println("the no of rows inserted is: "+result);
+			System.out.println("the no of rows inserted are: "+result);
 			
 		} catch (SQLException e) {
 			e.printStackTrace();
